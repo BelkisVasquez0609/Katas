@@ -10,7 +10,7 @@ def __toFahrenheit__(grade, scale):
 
 def __toCelsius__(grade, scale):
     if scale == "F":
-        result = (grade - 32) * 0.555555559
+        result = (grade - 32) * 0.555555559 + 273.15
     elif scale == "K":
         result = (grade - 273.15)
     else:
