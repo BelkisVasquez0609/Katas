@@ -20,7 +20,7 @@ def __toCelsius__(grade, scale):
 
 def __toKelvin__(grade, scale):
     if scale == "C":
-        result = (grade - 273.15)
+        result = (grade + 273.15)
     elif scale == "F":
         result = 5 / 9(grade - 32) + 273.15
     else:
